@@ -28,6 +28,7 @@ public class Combination {
     public static void generator(int start, int end, int size, List<Integer> comb, List<List<Integer>> result) {
         if (comb.size() == size) {
             result.add(new ArrayList<>(comb));
+            return;
         }
 
         for (int i = start; i <= end; i++) {
