@@ -31,7 +31,7 @@ public class Horses {
     public static boolean solveHorses(int[][] board, int row, int col, int numberStep) {
 
         if (numberStep == size * size) {
-            print(board); // не выводит
+            print(board); // не выводит? или нечего выводить?
             return false;
         }
 
